@@ -23,3 +23,5 @@ example/test-skill-project/.git/
 # 排除操作系统文件
 .DS_Store
 Thumbs.db
+
+example/test-skill-project/
