@@ -1,0 +1,328 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "dim": "S1",
+      "text": "您发布内容时更喜欢？",
+      "options": [
+        { "label": "转发/分享他人的内容", "value": 1 },
+        { "label": "混合发布原创和转发", "value": 2 },
+        { "label": "主要发布原创内容", "value": 3 }
+      ]
+    },
+    {
+      "id": "q2",
+      "dim": "S1",
+      "text": "您花在原创内容上的时间？",
+      "options": [
+        { "label": "很少原创，主要看别人", "value": 1 },
+        { "label": "偶尔原创，灵感来了才写", "value": 2 },
+        { "label": "经常原创，持续输出内容", "value": 3 }
+      ]
+    },
+    {
+      "id": "q3",
+      "dim": "S2",
+      "text": "您喜欢看什么类型的内容？",
+      "options": [
+        { "label": "轻松搞笑，短平快", "value": 1 },
+        { "label": "适中长度，有趣有料", "value": 2 },
+        { "label": "深度内容，长文分析", "value": 3 }
+      ]
+    },
+    {
+      "id": "q4",
+      "dim": "S2",
+      "text": "您写笔记时的风格是？",
+      "options": [
+        { "label": "简洁，几句话搞定", "value": 1 },
+        { "label": "适中，内容丰富但不冗长", "value": 2 },
+        { "label": "详细，全方位解析", "value": 3 }
+      ]
+    },
+    {
+      "id": "q5",
+      "dim": "S3",
+      "text": "您更新小红书的频率是？",
+      "options": [
+        { "label": "想起来更一次，随缘", "value": 1 },
+        { "label": "每周更几次，比较规律", "value": 2 },
+        { "label": "几乎每天都更，非常勤奋", "value": 3 }
+      ]
+    },
+    {
+      "id": "q6",
+      "dim": "S3",
+      "text": "您会为了更新特意安排时间吗？",
+      "options": [
+        { "label": "不会，有时间再说", "value": 1 },
+        { "label": "偶尔会，大部分时候随缘", "value": 2 },
+        { "label": "会，固定时间创作", "value": 3 }
+      ]
+    },
+    {
+      "id": "q7",
+      "dim": "E1",
+      "text": "您在小红书上的互动频率？",
+      "options": [
+        { "label": "很少互动，默默围观", "value": 1 },
+        { "label": "偶尔点赞评论，比较佛系", "value": 2 },
+        { "label": "积极互动，经常评论点赞", "value": 3 }
+      ]
+    },
+    {
+      "id": "q8",
+      "dim": "E1",
+      "text": "看到喜欢的内容您会？",
+      "options": [
+        { "label": "默默划走，喜欢放在心里", "value": 1 },
+        { "label": "点个赞，偶尔评论", "value": 2 },
+        { "label": "点赞评论收藏三连", "value": 3 }
+      ]
+    },
+    {
+      "id": "q9",
+      "dim": "E2",
+      "text": "您评论时的风格是？",
+      "options": [
+        { "label": "简洁，表情或几个字", "value": 1 },
+        { "label": "友好，写几句感受", "value": 2 },
+        { "label": "详细，写长篇感想", "value": 3 }
+      ]
+    },
+    {
+      "id": "q10",
+      "dim": "E2",
+      "text": "博主回复您时您会？",
+      "options": [
+        { "label": "不太会继续聊", "value": 1 },
+        { "label": "偶尔继续聊几句", "value": 2 },
+        { "label": "很开心，会继续交流", "value": 3 }
+      ]
+    },
+    {
+      "id": "q11",
+      "dim": "E3",
+      "text": "您关注的博主类型是？",
+      "options": [
+        { "label": "主要关注大V和热门博主", "value": 1 },
+        { "label": "大小博主都关注，比较平衡", "value": 2 },
+        { "label": "喜欢关注小众宝藏博主", "value": 3 }
+      ]
+    },
+    {
+      "id": "q12",
+      "dim": "E3",
+      "text": "您刷小红书时会？",
+      "options": [
+        { "label": "主要看推荐页的热门内容", "value": 1 },
+        { "label": "推荐和关注都看，比较均衡", "value": 2 },
+        { "label": "主要看自己关注的博主", "value": 3 }
+      ]
+    },
+    {
+      "id": "q13",
+      "dim": "A1",
+      "text": "您在小红书种草后的购买频率？",
+      "options": [
+        { "label": "很少买，主要看个热闹", "value": 1 },
+        { "label": "偶尔买，比较理性", "value": 2 },
+        { "label": "经常买，容易被种草", "value": 3 }
+      ]
+    },
+    {
+      "id": "q14",
+      "dim": "A1",
+      "text": "您的购物车状态是？",
+      "options": [
+        { "label": "空空如也，很少加购", "value": 1 },
+        { "label": "有一些，会考虑后再买", "value": 2 },
+        { "label": "满满当当，经常下单", "value": 3 }
+      ]
+    },
+    {
+      "id": "q15",
+      "dim": "A2",
+      "text": "您购买时最看重？",
+      "options": [
+        { "label": "价格，性价比最重要", "value": 1 },
+        { "label": "平衡，性价比和品质都考虑", "value": 2 },
+        { "label": "品质，好用最重要", "value": 3 }
+      ]
+    },
+    {
+      "id": "q16",
+      "dim": "A2",
+      "text": "看到喜欢但有点贵的东西您会？",
+      "options": [
+        { "label": "果断放弃，找平价替代", "value": 1 },
+        { "label": "犹豫一下，考虑考虑", "value": 2 },
+        { "label": "喜欢就买，对自己好一点", "value": 3 }
+      ]
+    },
+    {
+      "id": "q17",
+      "dim": "A3",
+      "text": "您对品牌的态度是？",
+      "options": [
+        { "label": "喜欢尝试新品牌", "value": 1 },
+        { "label": "新旧都用，比较灵活", "value": 2 },
+        { "label": "有固定喜欢的品牌", "value": 3 }
+      ]
+    },
+    {
+      "id": "q18",
+      "dim": "A3",
+      "text": "发现好东西后您会？",
+      "options": [
+        { "label": "继续探索新的", "value": 1 },
+        { "label": "偶尔回购，也尝新", "value": 2 },
+        { "label": "无限回购，一直用", "value": 3 }
+      ]
+    },
+    {
+      "id": "q19",
+      "dim": "Ac1",
+      "text": "您喜欢的笔记风格是？",
+      "options": [
+        { "label": "简约实用，清晰明了", "value": 1 },
+        { "label": "平衡，美观实用兼具", "value": 2 },
+        { "label": "精致美观，视觉享受", "value": 3 }
+      ]
+    },
+    {
+      "id": "q20",
+      "dim": "Ac1",
+      "text": "您拍照片/修图时会？",
+      "options": [
+        { "label": "原图直出，简单自然", "value": 1 },
+        { "label": "简单修修，自然好看", "value": 2 },
+        { "label": "精心修图，追求完美", "value": 3 }
+      ]
+    },
+    {
+      "id": "q21",
+      "dim": "Ac2",
+      "text": "您喜欢的颜色风格是？",
+      "options": [
+        { "label": "黑白灰，简约低调", "value": 1 },
+        { "label": "自然柔和，舒适耐看", "value": 2 },
+        { "label": "鲜艳明亮，活泼亮眼", "value": 3 }
+      ]
+    },
+    {
+      "id": "q22",
+      "dim": "Ac2",
+      "text": "您的穿搭/家居风格偏向？",
+      "options": [
+        { "label": "素雅，大地色系", "value": 1 },
+        { "label": "自然，柔和色系", "value": 2 },
+        { "label": "明亮，多彩色系", "value": 3 }
+      ]
+    },
+    {
+      "id": "q23",
+      "dim": "Ac3",
+      "text": "您写笔记的排版是？",
+      "options": [
+        { "label": "随性，想到什么写什么", "value": 1 },
+        { "label": "规整，分点清晰", "value": 2 },
+        { "label": "精心设计，有排版感", "value": 3 }
+      ]
+    },
+    {
+      "id": "q24",
+      "dim": "Ac3",
+      "text": "您看笔记时更在意？",
+      "options": [
+        { "label": "内容，排版无所谓", "value": 1 },
+        { "label": "都在意，内容排版都要好", "value": 2 },
+        { "label": "排版，视觉体验很重要", "value": 3 }
+      ]
+    },
+    {
+      "id": "q25",
+      "dim": "So1",
+      "text": "您的作息习惯是？",
+      "options": [
+        { "label": "夜猫子，晚睡晚起", "value": 1 },
+        { "label": "比较规律，适中作息", "value": 2 },
+        { "label": "早起达人，早睡早起", "value": 3 }
+      ]
+    },
+    {
+      "id": "q26",
+      "dim": "So1",
+      "text": "您刷小红书的时间主要在？",
+      "options": [
+        { "label": "深夜，睡前必刷", "value": 1 },
+        { "label": "全天，有空就刷", "value": 2 },
+        { "label": "白天，早上或午后", "value": 3 }
+      ]
+    },
+    {
+      "id": "q27",
+      "dim": "So2",
+      "text": "您平时的运动习惯是？",
+      "options": [
+        { "label": "很少运动，宅家为主", "value": 1 },
+        { "label": "偶尔运动，比较适中", "value": 2 },
+        { "label": "经常运动，热爱健身", "value": 3 }
+      ]
+    },
+    {
+      "id": "q28",
+      "dim": "So2",
+      "text": "您周末更喜欢？",
+      "options": [
+        { "label": "宅家休息，放松身心", "value": 1 },
+        { "label": "劳逸结合，适当出门", "value": 2 },
+        { "label": "出门运动/探店，充实度过", "value": 3 }
+      ]
+    },
+    {
+      "id": "q29",
+      "dim": "So3",
+      "text": "您看笔记时的习惯是？",
+      "options": [
+        { "label": "主要看图，文字扫一眼", "value": 1 },
+        { "label": "图文都看，比较平衡", "value": 2 },
+        { "label": "认真读文字，仔细品味", "value": 3 }
+      ]
+    },
+    {
+      "id": "q30",
+      "dim": "So3",
+      "text": "您更喜欢什么类型的内容？",
+      "options": [
+        { "label": "图片/视频为主，视觉冲击", "value": 1 },
+        { "label": "图文并茂，内容丰富", "value": 2 },
+        { "label": "文字干货，深度内容", "value": 3 }
+      ]
+    }
+  ],
+  "specialQuestions": [
+    {
+      "id": "drink_gate_q1",
+      "special": true,
+      "kind": "drink_gate",
+      "text": "您平时有什么爱好？",
+      "options": [
+        { "label": "吃喝拉撒", "value": 1 },
+        { "label": "艺术爱好", "value": 2 },
+        { "label": "购物", "value": 3 },
+        { "label": "健身", "value": 4 }
+      ]
+    },
+    {
+      "id": "drink_gate_q2",
+      "special": true,
+      "kind": "drink_trigger",
+      "text": "您对购物的态度是？",
+      "options": [
+        { "label": "理性消费，按需购买", "value": 1 },
+        { "label": "我习惯将种草清单存满购物车，随时准备下单，购物令我快乐。", "value": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# 排除 node_modules 目录
+node_modules/
+
+# 排除测试项目目录中的图片（如果有的话）
+example/test-skill-project/image/
+
+# 排除测试项目目录中的 .git 文件夹
+example/test-skill-project/.git/
+
+# 排除临时文件
+*.tmp
+*.temp
+
+# 排除日志文件
+*.log
+
+# 排除编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 排除操作系统文件
+.DS_Store
+Thumbs.db

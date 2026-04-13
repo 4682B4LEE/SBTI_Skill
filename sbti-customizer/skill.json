@@ -1,0 +1,149 @@
+{
+  "name": "sbti-customizer",
+  "displayName": "SBTI 测试定制器",
+  "description": "基于 GitHub 上的 SBTI 源码，一键替换内容，支持在任何可以执行 Skill 的 IDE 或开发工具中使用",
+  "version": "1.0.0",
+  "commands": [
+    {
+      "name": "init",
+      "displayName": "初始化 SBTI 项目",
+      "description": "从 GitHub 仓库克隆 SBTI 源码并创建项目结构",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "指定项目保存的路径",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "replace-dimensions",
+      "displayName": "替换维度系统",
+      "description": "替换 SBTI 的维度元数据、解释和顺序",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "configFile",
+          "displayName": "配置文件",
+          "description": "包含维度配置的 JSON 文件路径",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "replace-questions",
+      "displayName": "替换题目系统",
+      "description": "替换 SBTI 的常规问题和特殊问题",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "configFile",
+          "displayName": "配置文件",
+          "description": "包含题目配置的 JSON 文件路径",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "replace-personalities",
+      "displayName": "替换人格系统",
+      "description": "替换 SBTI 的人格信息和图片",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "configFile",
+          "displayName": "配置文件",
+          "description": "包含人格配置的 JSON 文件路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "imagePath",
+          "displayName": "图片路径",
+          "description": "包含人格图片的目录路径",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "replace-matching-rules",
+      "displayName": "替换匹配规则",
+      "description": "替换 SBTI 的人格匹配模式",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "configFile",
+          "displayName": "配置文件",
+          "description": "包含匹配规则配置的 JSON 文件路径",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "validate",
+      "displayName": "验证与测试",
+      "description": "验证替换后的测试系统是否正常运行",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "displayName": "部署配置",
+      "description": "提供本地部署和访问的指导",
+      "parameters": [
+        {
+          "name": "projectPath",
+          "displayName": "项目路径",
+          "description": "SBTI 项目的路径",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "port",
+          "displayName": "端口号",
+          "description": "本地服务器端口号",
+          "type": "number",
+          "default": 8000,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

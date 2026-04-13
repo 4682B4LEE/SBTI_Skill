@@ -1,0 +1,9 @@
+{
+  "name": "sbti-customizer",
+  "version": "1.0.0",
+  "description": "SBTI 测试定制器",
+  "main": "main.js",
+  "type": "commonjs",
+  "author": "",
+  "license": "MIT"
+}
